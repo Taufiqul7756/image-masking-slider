@@ -1,16 +1,16 @@
-export interface Config {
-  apiUrl: string;
+// export interface Config {
+//   apiUrl: string;
 
-  makeApiUrl: (path: string, base?: string) => string;
-}
+//   makeApiUrl: (path: string, base?: string) => string;
+// }
 
-const apiUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
+// const apiUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
 
-const config: Config = {
-  apiUrl,
-  makeApiUrl: (path: string, base: string = apiUrl) => {
-    return base + path;
-  },
-};
+// const config: Config = {
+//   apiUrl,
+//   makeApiUrl: (path: string, base: string = apiUrl) => {
+//     return base + path;
+//   },
+// };
 
-export default config;
+// export default config;
