@@ -5,8 +5,8 @@ import DefaultLayout from "@/components/shared/DefaultLayout";
 import QueryClientProvider from "@/provider/QueryClientProvider";
 
 export const metadata: Metadata = {
-  title: "JSON Builder",
-  description: "A JSON builder for your needs",
+  title: "Image Masking Slider",
+  description: "Image Masking Slider - Compare img color by slider",
 };
 
 export default function RootLayout({
